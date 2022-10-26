@@ -9,15 +9,18 @@
   <body>
     <h1>Formulir Isian</h1>
     <form action="#" method="post">
-      <button type="button">Tombol Biasa</button>
-      <button type="menu">Menu</button>
       <div>
         <label for="nama">Nama Lengkap</label>
-        <input type="text" id="nama" placeholder="Irfan Febrian" />
+        <input type="text" id="nama" placeholder="Irfan Febrian" name="nama" />
       </div>
       <div>
         <label for="email">Email</label>
-        <input type="email" id="email" placeholder="irfan@gmail.com" />
+        <input
+          type="email"
+          id="email"
+          placeholder="irfan@gmail.com"
+          name="email"
+        />
       </div>
       <div>
         <label for="password">Password</label>
@@ -25,19 +28,18 @@
           type="password"
           id="password"
           placeholder="Kombinasi huruf, angka dan symbol"
+          name="password"
         />
       </div>
       <div>
         <label for="phone">Phone</label>
-        <input type="number" id="phone" placeholder="0895123456" />
+        <input type="number" id="phone" placeholder="0895123456" name="phone" />
       </div>
       <div>
         <label for="color">Color</label>
-        <input type="color" id="color" />
+        <input type="color" id="color" name="color" />
       </div>
-      <button type="reset">Reset</button>
       <button type="submit">Kirim</button>
-      <button>Kirim</button>
     </form>
   </body>
 </html>
