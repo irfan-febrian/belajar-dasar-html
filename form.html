@@ -43,6 +43,7 @@
     </form>
     <hr />
     <form action="#" method="get">
+      <h1>Pesanan</h1>
       <label for="">Baju</label>
       <div>
         <input type="radio" name="baju" id="kemeja" value="kemeja" checked />
@@ -61,7 +62,19 @@
       </div>
       <div>
         <label for="term">Sesuai pesanan</label>
-        <input type="checkbox" name="term" id="term" />
+        <input type="checkbox" name="term" id="term" value="setuju" />
+      </div>
+      <div>
+        <p>
+          <label for="catatan">Catatan</label>
+        </p>
+        <textarea
+          name="catatan"
+          id="catatan"
+          cols="30"
+          rows="10"
+          placeholder="Masukan catatan anda"
+        ></textarea>
       </div>
       <button type="submit">Order</button>
     </form>
